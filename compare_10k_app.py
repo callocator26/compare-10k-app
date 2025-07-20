@@ -1,6 +1,7 @@
 # compare_10k_app.py
 
 import streamlit as st
+st.title("🧾 SEC 10-K Section Comparator")
 import requests
 import re
 from bs4 import BeautifulSoup
